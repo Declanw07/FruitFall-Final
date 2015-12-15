@@ -58,7 +58,7 @@ void cAsteroid::update(float deltaTime)
 
 	setBoundingRect(&boundingRect);
 
-	renderCollisionBox();
+	//renderCollisionBox();
 
 }
 

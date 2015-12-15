@@ -1,9 +1,53 @@
-﻿Build started 15/12/2015 22:17:06.
-     1>Project "C:\Users\declan\Desktop\Fruitfall - Programming 1 FINAL\Lab10\Lab10.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         Lab10.vcxproj -> C:\Users\declan\Desktop\Fruitfall - Programming 1 FINAL\Debug\Lab10.exe
-     1>Done Building Project "C:\Users\declan\Desktop\Fruitfall - Programming 1 FINAL\Lab10\Lab10.vcxproj" (Build target(s)).
+﻿Build started 15/12/2015 22:51:01.
+     1>Project "C:\Users\declan\Desktop\FruitFall-Final\Fruitfall - Programming 1 FINAL\Lab10\Lab10.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cAsteroid.cpp cRocket.cpp
+         cRocket.cpp
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\crocket.cpp(23): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\crocket.cpp(25): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\crocket.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\crocket.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         cAsteroid.cpp
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(25): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(31): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(83): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(89): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(90): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(91): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(94): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(95): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(96): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\declan\desktop\fruitfall-final\fruitfall - programming 1 final\lab10\casteroid.cpp(97): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\declan\Desktop\FruitFall-Final\Fruitfall - Programming 1 FINAL\Debug\Lab10.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\declan\Desktop\FruitFall-Final\Fruitfall - Programming 1 FINAL\Debug\Lab10.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\declan\Desktop\FruitFall-Final\Fruitfall - Programming 1 FINAL\Debug\Lab10.lib" /MACHINE:X86 Debug\asteroidsGame.obj
+         Debug\cBkGround.obj
+         Debug\cButton.obj
+         Debug\cFont.obj
+         Debug\cFontMgr.obj
+         Debug\cAsteroid.obj
+         Debug\cInputMgr.obj
+         Debug\cRocket.obj
+         Debug\cSound.obj
+         Debug\cSoundMgr.obj
+         Debug\cSprite.obj
+         Debug\cTexture.obj
+         Debug\cWNDManager.obj
+         Debug\main.obj
+         Debug\windowOGL.obj
+         Libraries\alut.lib
+         Libraries\DevIL.lib
+         Libraries\freeglut.lib
+         Libraries\ftgl.lib
+         Libraries\ILU.lib
+         Libraries\ILUT.lib
+         Libraries\OpenAL32.lib
+         Lab10.vcxproj -> C:\Users\declan\Desktop\FruitFall-Final\Fruitfall - Programming 1 FINAL\Debug\Lab10.exe
+     1>Done Building Project "C:\Users\declan\Desktop\FruitFall-Final\Fruitfall - Programming 1 FINAL\Lab10\Lab10.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.05
+Time Elapsed 00:00:01.88

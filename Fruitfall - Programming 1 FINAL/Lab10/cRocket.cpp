@@ -46,7 +46,7 @@ void cRocket::update(float deltaTime)
 
 	setBoundingRect2(&theBoundingRect); // The alternative setBoundingRect method used to get around issues.
 
-	renderCollisionBox();
+	//renderCollisionBox();
 
 
 
